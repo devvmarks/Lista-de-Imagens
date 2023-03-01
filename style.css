@@ -1,0 +1,46 @@
+html {
+    font-family: 'Public Sans', sans-serif;
+    
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.pinturas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 130px 30px;
+}
+
+.pinturas .pintura {
+    height: 431px;
+    width: 335px;
+    position: relative;
+}
+
+.pinturas .pintura img {
+    width: 100%;
+}
+
+.pinturas .pintura .informacoes {
+    position: absolute;
+    color: #ffffff;
+    bottom: 40px;
+    left: 20px;
+}
+
+.pinturas .pintura .informacoes .titulo {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.pinturas .pintura .informacoes .subtitulo {
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 5px;
+}
